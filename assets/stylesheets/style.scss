@@ -1,5 +1,30 @@
-<<<<<<< HEAD
-b{ display:flex;
+// Modules & Variables
+@import "modules/colours";
+@import "modules/fontstack";
+
+
+// Partials
+@import "partials/blocks";
+@import "partials/buttons";
+@import "partials/cards";
+@import "partials/dots";
+@import "partials/figures";
+@import "partials/footer";
+@import "partials/headers";
+@import "partials/jumbotron";
+@import "partials/logos";
+@import "partials/nav";
+@import "partials/sections";
+@import "partials/text";
+@import "partials/top-section";
+@import "partials/tweets";
+
+
+
+
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  width:1280px;
 }
-=======
->>>>>>> eecde307657f67b8b648cd2305e37f31b6c49223

@@ -1,36 +1,77 @@
-/*
-Error: Invalid CSS after "...5e37f31b6c49223": expected "{", was ""
-        on line 6 of /home/tpaparazzo/becode_projects/SASS/website-template-pro/assets/stylesheets/style.scss
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  margin: 0 auto;
+  width: 960px; }
 
-1: <<<<<<< HEAD
-2: b{ display:flex;
-3: }
-4: =======
-5: >>>>>>> eecde307657f67b8b648cd2305e37f31b6c49223
+.navbar :visited {
+  text-decoration: none; }
 
-Backtrace:
-/home/tpaparazzo/becode_projects/SASS/website-template-pro/assets/stylesheets/style.scss:6
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-/usr/share/koala/bin/sass:22:in `load'
-/usr/share/koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...5e37f31b6c49223\": expected \"{\", was \"\"\A         on line 6 of /home/tpaparazzo/becode_projects/SASS/website-template-pro/assets/stylesheets/style.scss\A \A 1: <<<<<<< HEAD\A 2: b{ display:flex;\A 3: }\A 4: =======\A 5: >>>>>>> eecde307657f67b8b648cd2305e37f31b6c49223"; }
+.navbar img {
+  height: auto;
+  width: 120px; }
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 60%;
+  text-align: center;
+  padding: 0; }
+
+.navbar ul ul {
+  display: none;
+  width: 102px;
+  float: none; }
+
+.navbar ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center; }
+
+.navbar ul li:hover > ul {
+  display: flex;
+  flex-direction: column;
+  width: 102px; }
+
+.navbar ul ul li {
+  width: 102px;
+  float: left;
+  display: list-item;
+  position: relative;
+  background-color: red; }
+
+.navbar a {
+  text-decoration: none;
+  color: black; }
+
+.top-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: solid #e1e1e1 1px;
+  margin: 0 auto; }
+
+.top-contact div {
+  border: solid #e1e1e1 1px; }
+
+.top-contact div:nth-of-type(1) {
+  width: 12.5%;
+  border-left: solid #e1e1e1 2px; }
+
+.top-contact div:nth-of-type(2) {
+  width: 50%; }
+
+.top-contact div:nth-of-type(3) {
+  width: 25%; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  width: 1280px; }
+
+/*# sourceMappingURL=style.css.map */
