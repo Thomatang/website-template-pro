@@ -1,5 +1,5 @@
 // Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans|Oranienbaum|Poppins:400,500,600|Trocchi) // MIGHT NOT NEED 400 FOR POPPINS ?
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans|Oranienbaum|Poppins:400,500,600|Trocchi"); // MIGHT NOT NEED 400 FOR POPPINS ?
 
 // FONT-FAMILY
 $title: 'Poppins', sans-serif; // for h1s, h2s, h3s
@@ -9,6 +9,15 @@ $author: 'Trocchi', serif; // for paragraph below "John Smith" in author
 $minimal: 'Oranienbaum', serif; // for short sentence in section 2 of minimal "Impress your clients...."
 
 // FONT-SIZE
+// $tiny: ;
+$small: 16px;
+$normal: 20px; // some h4s (ex: section-title) may be slightly smaller
+$big: 35px; // h3
+$big-grig: 50px; // h2 in grig jumbotron
+$huge: 55px; // h2
+$giant: 70px; // h1
+
+// FONT-WEIGHT
 $light: 300;
 $regular: 400;
 $medium: 500;
