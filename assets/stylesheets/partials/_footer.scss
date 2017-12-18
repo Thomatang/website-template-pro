@@ -1,0 +1,46 @@
+// PRE-FOOTER
+
+h1{
+	font-size: $normal;
+}
+
+.pre-footer{
+	background-color: $dark-2;
+	color: $grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.pre-footer-description{
+		max-width: 100px / 600px * 100%;
+		margin: 0 10px;
+		
+		img{
+			width: 15px; // double check
+		}
+	}
+
+	.pre-footer-posts{
+		max-width: 100px / 600px * 100%;
+		margin: 0 10px;
+		
+	}
+
+	.pre-footer-links{
+		max-width: 100px / 600px * 100%;
+		margin: 0 10px;
+		
+	}
+
+	.pre-footer-contact{
+		max-width: 100px / 600px * 100%;
+		margin: 0 10px;
+		
+	}
+}
+
+
+// FOOTER
+
+.footer{
+
+}
