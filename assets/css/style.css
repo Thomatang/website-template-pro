@@ -1,3 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans|Oranienbaum|Poppins:400,500,600|Trocchi");
+h1 {
+  font-size: 20px; }
 
+.pre-footer {
+  background-color: #131516;
+  color: #888888;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .pre-footer .pre-footer-description {
+    max-width: 16.6666666667%;
+    margin: 0 10px; }
+    .pre-footer .pre-footer-description img {
+      width: 15px; }
+  .pre-footer .pre-footer-posts {
+    max-width: 16.6666666667%;
+    margin: 0 10px; }
+  .pre-footer .pre-footer-links {
+    max-width: 16.6666666667%;
+    margin: 0 10px; }
+  .pre-footer .pre-footer-contact {
+    max-width: 16.6666666667%;
+    margin: 0 10px; }
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  margin: 0 auto;
+  width: 960px; }
+
+.navbar :visited {
+  text-decoration: none; }
+
+.navbar img {
+  height: auto;
+  width: 120px; }
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 60%;
+  text-align: center;
+  padding: 0; }
+
+.navbar ul ul {
+  display: none;
+  width: 102px;
+  float: none; }
+
+.navbar ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center; }
+
+.navbar ul li:hover > ul {
+  display: flex;
+  flex-direction: column;
+  width: 102px; }
+
+.navbar ul ul li {
+  width: 102px;
+  float: left;
+  display: list-item;
+  position: relative;
+  background-color: red; }
+
+.navbar a {
+  text-decoration: none;
+  color: black; }
+
+.top-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: solid #e1e1e1 1px;
+  margin: 0 auto; }
+
+.top-contact div {
+  border: solid #e1e1e1 1px; }
+
+.top-contact div:nth-of-type(1) {
+  width: 12.5%;
+  border-left: solid #e1e1e1 2px; }
+
+.top-contact div:nth-of-type(2) {
+  width: 50%; }
+
+.top-contact div:nth-of-type(3) {
+  width: 25%; }
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  width: 1280px; }
 
 /*# sourceMappingURL=style.css.map */
