@@ -1,27 +1,158 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans|Oranienbaum|Poppins:400,500,600|Trocchi");
-h1 {
-  font-size: 20px; }
+.card-img-1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Muli", sans-serif; }
+  .card-img-1 img {
+    max-width: 100%;
+    max-height: 100%; }
+  .card-img-1 div:last-child {
+    border: 0.5px solid #f5f5f5;
+    box-shadow: 0px 1px 2px #f5f5f5;
+    margin-top: -5px;
+    text-align: center; }
+    .card-img-1 div:last-child h4 {
+      margin-bottom: 8px; }
+    .card-img-1 div:last-child p {
+      margin-top: 0;
+      margin-bottom: 22px;
+      color: #888888; }
+
+.card-img-2 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Muli", sans-serif; }
+  .card-img-2 img {
+    max-width: 100%;
+    max-height: 100%; }
+
+.index-section-5-cards {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px; }
+  .index-section-5-cards .card-img-1 {
+    max-width: 300px;
+    margin: 10px; }
 
 .pre-footer {
-  background-color: #131516;
+  background-color: #1a1d1f;
   color: #888888;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  padding: 70px 40px 90px 40px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: flex-start; }
   .pre-footer .pre-footer-description {
-    max-width: 16.6666666667%;
+    width: 18.3333333333%;
     margin: 0 10px; }
     .pre-footer .pre-footer-description img {
-      width: 15px; }
+      width: 30px;
+      margin-bottom: 20px; }
+    .pre-footer .pre-footer-description p {
+      margin-top: 0;
+      line-height: 22px; }
   .pre-footer .pre-footer-posts {
-    max-width: 16.6666666667%;
-    margin: 0 10px; }
+    width: 18.3333333333%;
+    margin: 0 10px;
+    font-size: 14px; }
+    .pre-footer .pre-footer-posts > p {
+      margin-top: 0;
+      margin-bottom: 40px;
+      color: #FFFFFF; }
+    .pre-footer .pre-footer-posts a {
+      text-decoration: none; }
+    .pre-footer .pre-footer-posts a p {
+      margin-bottom: 0; }
+    .pre-footer .pre-footer-posts hr {
+      color: #888888; }
+    .pre-footer .pre-footer-posts div p:nth-of-type(1) {
+      color: #FFFFFF; }
+    .pre-footer .pre-footer-posts div p:nth-of-type(2) {
+      color: #888888;
+      margin-top: 8px;
+      font-size: 12px; }
   .pre-footer .pre-footer-links {
-    max-width: 16.6666666667%;
+    width: 18.3333333333%;
     margin: 0 10px; }
+    .pre-footer .pre-footer-links p:nth-child(1) {
+      margin-top: 0;
+      margin-bottom: 40px;
+      color: #FFFFFF;
+      font-size: 14px; }
+    .pre-footer .pre-footer-links a {
+      display: block;
+      text-decoration: none;
+      margin-bottom: 16px;
+      color: #888888; }
   .pre-footer .pre-footer-contact {
-    max-width: 16.6666666667%;
+    width: 18.3333333333%;
     margin: 0 10px; }
+    .pre-footer .pre-footer-contact p:nth-child(1) {
+      margin-top: 0;
+      margin-bottom: 40px;
+      color: #FFFFFF;
+      font-size: 14px; }
+    .pre-footer .pre-footer-contact p:nth-child(2) {
+      color: #FFFFFF;
+      margin-bottom: 18px; }
+    .pre-footer .pre-footer-contact p:nth-child(4) {
+      color: #FFFFFF;
+      margin-bottom: 18px;
+      margin-top: 25px; }
+    .pre-footer .pre-footer-contact p:nth-child(5) {
+      margin-bottom: 18px; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #131516;
+  color: #888888;
+  font-family: "Muli", sans-serif;
+  padding: 10px 70px; }
+  .footer a {
+    color: #888888; }
+  .footer a[href="http://themeple.co/"], .footer a[href="https://wordpress.com/"] {
+    color: #FFFFFF;
+    text-decoration: none; }
+  .footer p {
+    font-size: 14px; }
+  .footer ul {
+    padding-left: 0; }
+    .footer ul li {
+      display: inline-block;
+      margin-right: 30px; }
+
+.section-title p {
+  font-size: 20px;
+  font-family: "Muli", sans-serif;
+  color: #888888;
+  margin-bottom: 0; }
+.section-title h3 {
+  font-size: 35px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0;
+  margin-bottom: 22px; }
+.section-title hr {
+  height: 3px;
+  color: #465cff;
+  background-color: #465cff;
+  border: none;
+  margin-bottom: 35px; }
+
+.section-title-center {
+  text-align: center; }
+  .section-title-center hr {
+    width: 90px; }
+
+.section-title-left {
+  text-align: left; }
+  .section-title-left hr {
+    width: 45px;
+    margin-right: 0;
+    margin-left: 0; }
 
 .navbar {
   display: flex;
