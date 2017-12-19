@@ -2,61 +2,74 @@
   display:flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 12px;;
+  font-family: $subtitle;
+  font-weight: $medium;
   margin: 0 auto;
   width: 1280px* 0.75;
-}
-.navbar :visited{
-  text-decoration: none;
-}
-
-.navbar img {
-  height: auto;
-  width: 960px * 0.125;
-
-}
-
-.navbar ul {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-  width:60%;
-  text-align:center;
-  padding:0;
-}
-
-.navbar ul ul {
-  display: none;
-  width: 102px;
- float:none;
-}
-
-
-.navbar ul li{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: center;
-}
-
-.navbar ul li:hover > ul {
-	display:flex;
-  flex-direction: column;
-  width: 102px;
-
-}
-
-.navbar ul ul li {
-	width:102px;
-	float:left;
-	display:list-item;
-	position: relative;
-  background-color: red;
+   img {
+    height: auto;
+    width: 960px * 0.125;}
+   ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-around;
+      width:60%;
+      text-align:center;
+      padding:0;
+      ul {
+      display: none;
+      width: 102px;
+      float:none;
+        li{
+           width:102px;
+         	 float:left;
+         	 display:list-item;
+         	 position: relative;
+           }}
+       li{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: flex-start;
+          text-align: center;
+              &:hover > ul {
+              	display:flex;
+                flex-direction: column;
+                width: 102px;}
+       // a {
+       //  text-decoration: none;
+       //  color:black;
+       //  font-weight: $bold;
+       //  color: $grey;
+       //  &:hover {
+       //    color: $blue-2;
+       //  }
+            }
+     }
 }
 
+.navbar-dark{
+  @extend .navbar;
+  a{
+    text-decoration: none;
+     font-weight: $bold;
+     color: $grey;
+     &:hover {
+       color: $blue-2;
+  }
+}
+}
 
-.navbar a {
-  text-decoration: none;
-  color:black;
+
+.navbar-light{
+  @extend .navbar;
+  a{
+    text-decoration: none;
+     font-weight: $bold;
+     color: $white;
+     &:hover {
+       color: $blue-2;
+  }
+}
 }
