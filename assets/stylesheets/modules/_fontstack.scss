@@ -9,7 +9,7 @@ $author: 'Trocchi', serif; // for paragraph below "John Smith" in author
 $minimal: 'Oranienbaum', serif; // for short sentence in section 2 of minimal "Impress your clients...."
 
 // FONT-SIZE
-$micro: 12px;
+$micro: 12px; // navbar and anything smaller than tiny 
 $tiny: 14px; // labels above stats, paragraphs in cards, ... check
 $small: 16px; // regular text (paragraphs)
 $normal: 20px; // some h4s (ex: section-title) may be slightly smaller
