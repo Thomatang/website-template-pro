@@ -29,3 +29,21 @@
   padding-left: 10px;
   padding-right: 5px;
 }
+
+
+.top-contact-light {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  border: solid $white 0.5px;
+  margin: 0 auto;
+  color: $white;
+  font-size: 10px;
+  font-family: $paragraph;
+    div {
+      border:solid $white 0.5px;
+    }
+    i{
+      color: $white;
+    }
+}
