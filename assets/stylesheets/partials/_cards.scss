@@ -1,12 +1,16 @@
+// ADD HOVER EFFECT ON CARDS
+
+
 // INDIVIDUAL CARDS: IMAGE CARDS
 
 .card-img-1{
 	display: flex;
 	flex-direction: column;
 	font-family: $subtitle;
+	cursor: pointer;
 	img{
-		max-width:100%; // necessary?
-		max-height:100%; // necessary?
+		max-width: 100%; // necessary?
+		max-height: 100%; // necessary?
 	}
 	div:last-child{
 		border: 0.5px solid $background-grey;
@@ -15,6 +19,7 @@
 		text-align: center;
 		h4{
 			margin-bottom: 8px;
+			font-weight: $extra-bold;
 		}
 		p{
 			margin-top: 0;
@@ -27,18 +32,74 @@
 .card-img-2{
 	display: flex;
 	flex-direction: column;
-	font-family: $subtitle;	
+	font-family: $subtitle;
+	cursor: pointer;	
 	img{
-		max-width:100%; // necessary?
-		max-height:100%; // necessary?
+		max-width: 100%; // necessary?
+		max-height: 100%; // necessary?
 	}
-	
+	p:first-of-type{
+		line-height: 25px;
+		font-size: $tiny;
+		color: $grey;
+	}
+	p:first-child{
+		font-weight: $regular;
+		color: $grey;
+	}
+	div{
+		background-color: $white;
+		padding: 30px 30px 20px 30px;
+		h4{
+			margin-top: 0;
+			margin-bottom: 0;
+			font-weight: $extra-bold;
+		}
+		div{
+			border-top: 0.5px solid $background-grey;
+			display: flex;
+			align-items: flex-start;
+			padding: 16px 0 0 0;
+			p:first-of-type{
+				margin-top: 5px;
+				margin-left: 10px;
+				margin-bottom: 5px;
+				font-size: $micro;
+				font-weight: $regular;
+			}
+			img{
+				height: 22px;
+				width: 22px;
+				align-self: center;
+			}
+		}
+	}
 }
 
-
-
-
-
+.card-img-3{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	cursor: pointer;
+	text-align: center;
+	img{
+		max-width: 100%; // necessary?
+		max-height: 100%; // necessary?
+		border: 1px solid $light-text;
+		border-radius: 3px;
+		overflow: hidden;
+	}
+	h4{
+		margin-top: 10px;
+		margin-bottom: 0px;
+		font-weight: $extra-bold;
+	}
+	p{
+		margin-top: 5px;
+		font-size: $tiny;
+		color: $grey;
+	}
+}
 
 
 
@@ -55,3 +116,24 @@
 		margin: 10px;
 	}
 }
+
+.blog-grig-section-1-cards{
+	@extend .index-section-5-cards;
+	.card-img-2{
+		max-width: 300px;
+		margin: 10px;
+	}
+}
+
+.shop-section-1-cards{
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	.card-img-3{
+		max-width: 260px;
+		margin: 24px;
+	}
+}
+
+
