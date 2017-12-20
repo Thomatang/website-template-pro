@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Muli:400,700|Open+Sans|Oranienbaum|Poppins:400,500,600|Trocchi");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700,800|Open+Sans|Oranienbaum|Poppins:400,500,600|Trocchi");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .btn-blue {
   margin: 30px 0; }
   .btn-blue button {
@@ -92,6 +93,32 @@
   .index-section-5-cards .card-img-1 {
     max-width: 300px;
     margin: 10px; }
+
+.two-dots {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .two-dots .fa-dot-circle-o {
+    color: #FFFFFF;
+    font-size: 20px; }
+  .two-dots .fa-circle {
+    color: #d6d6d6;
+    font-size: 20px; }
+
+.three-dots .fa-circle {
+  color: #d6d6d6;
+  font-size: 12px;
+  padding: 2px; }
+.three-dots .fa-circle:first-child {
+  color: #5e5f5e; }
+
+.six-dots .fa-circle {
+  color: #d6d6d6;
+  font-size: 12px;
+  padding: 2px; }
+.six-dots .fa-circle:first-child {
+  color: #5e5f5e; }
 
 .pre-footer {
   background-color: #1a1d1f;
@@ -239,13 +266,30 @@
 
 .jumbotron2 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   text-align: left;
   padding: 120px 0;
   background-color: blue;
   opacity: 0.5; }
+  .jumbotron2 .d-agency-arrows {
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .jumbotron2 .d-agency-arrows .fa-angle-right {
+      color: #FFFFFF;
+      padding: 0;
+      font-weight: 700; }
+    .jumbotron2 .d-agency-arrows .fa-angle-left {
+      color: #FFFFFF;
+      padding: 0;
+      font-weight: 700; }
+  .jumbotron2 div:nth-of-type(2) {
+    width: 70%; }
   .jumbotron2 img {
     height: 70px;
     width: auto;
@@ -304,15 +348,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #011ff1; }
+  background-color: #011ff1;
+  text-align: center; }
+  .jumbotron5 img {
+    height: 400px;
+    width: auto; }
   .jumbotron5 h2 {
     color: #FFFFFF;
-    font-family: "Trocchi", serif; }
+    font-family: "Trocchi", serif;
+    font-size: 70px;
+    margin-top: 0; }
   .jumbotron5 hr {
     color: #d6d6d6;
     width: 200px; }
   .jumbotron5 h4 {
-    color: #d6d6d6; }
+    color: #d6d6d6;
+    font-family: "Trocchi", serif; }
 
 .jumbotron6 {
   display: flex;
@@ -340,6 +391,14 @@
   .jumbotron6 a {
     margin-top: 10px; }
 
+.jumbotron7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/shop-fullwidth.png");
+  padding: 250px; }
+
 .navbar, .navbar-dark, .navbar-light {
   display: flex;
   align-items: center;
@@ -347,7 +406,7 @@
   font-size: 12px;
   font-family: "Muli", sans-serif;
   font-weight: 500;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 960px; }
   .navbar img, .navbar-dark img, .navbar-light img {
     height: auto;
@@ -416,7 +475,7 @@
   width: 25%; }
 
 .fa {
-  font-size: 16px;
+  font-size: 20px;
   color: #1a1d1f;
   padding-left: 10px;
   padding-right: 5px; }
@@ -434,6 +493,38 @@
     border: solid #FFFFFF 0.5px; }
   .top-contact-light i {
     color: #FFFFFF; }
+
+.tweet, .tweet-sans {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 125px auto; }
+  .tweet .fa-twitter, .tweet-sans .fa-twitter {
+    font-size: 50px;
+    padding: 20px; }
+  .tweet p, .tweet-sans p {
+    font-family: "Open Sans", sans-serif; }
+  .tweet p:nth-of-type(2), .tweet-sans p:nth-of-type(2) {
+    color: #888888;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 25px;
+    padding: 10px;
+    letter-spacing: 0.5px;
+    font-size: 16px; }
+  .tweet p:nth-of-type(3), .tweet-sans p:nth-of-type(3) {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Muli", sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding: 5px; }
+  .tweet p:nth-of-type(4), .tweet-sans p:nth-of-type(4) {
+    color: #888888;
+    margin-top: 0;
+    font-size: 14px; }
 
 body {
   box-sizing: border-box;

@@ -7,7 +7,6 @@
             background-position: bottom center;
             padding-top: 300px;
             padding-bottom: 250px;
-
             div{
               display:flex;
               flex-direction: column;
@@ -33,13 +32,34 @@
 //JUMBO on ABOUT-US
 .jumbotron2{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
   text-align: left;
   padding: 120px 0;
   background-color: blue;
   opacity: 0.5;
+  .d-agency-arrows{
+    align-self: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      .fa-angle-right{
+        color: $white;
+        padding:0;
+        font-weight: $bold;
+      }
+      .fa-angle-left{
+        color: $white;
+        padding:0;
+        font-weight: $bold;
+      }
+  }
+   div:nth-of-type(2){
+     width: 70%;
+   }
     img{
       height: 70px;
       width: auto;
@@ -110,9 +130,16 @@
  justify-content: center;
  align-items: center;
  background-color: $blue-5;
+ text-align: center;
+   img{
+     height: 400px;
+     width: auto;
+   }
    h2{
      color:$white;
      font-family: $author;
+     font-size: $giant;
+     margin-top: 0;
    }
    hr{
     color: $dots-light;
@@ -120,6 +147,7 @@
    }
    h4{
      color: $dots-light;
+     font-family: $author;
    }
 }
 
@@ -156,5 +184,10 @@
 }
 //found on SHOP
 .jumbotron7{
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/shop-fullwidth.png");
+  padding: 250px;
 }
