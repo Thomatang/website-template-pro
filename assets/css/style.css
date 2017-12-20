@@ -63,13 +63,15 @@
   flex-direction: column;
   font-family: "Muli", sans-serif;
   cursor: pointer;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .card-img-3 img {
     max-width: 100%;
     max-height: 100%;
     border: 1px solid #d6d6d6;
     border-radius: 3px;
-    overflow: hidden; }
+    overflow: hidden;
+    display: block; }
   .card-img-3 h4 {
     margin-top: 10px;
     margin-bottom: 0px;
@@ -78,6 +80,32 @@
     margin-top: 5px;
     font-size: 14px;
     color: #888888; }
+  .card-img-3 strike {
+    font-size: 10px;
+    color: #d6d6d6; }
+  .card-img-3 .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 262px;
+    width: 100%;
+    transition: all .5s ease;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 3px;
+    overflow: hidden;
+    color: #FFFFFF; }
+    .card-img-3 .overlay button {
+      margin-top: 120px;
+      cursor: pointer;
+      background-color: #465cff;
+      color: #FFFFFF;
+      display: none; }
+  .card-img-3:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7); }
+  .card-img-3:hover .overlay button {
+    display: inline-block; }
 
 .index-section-5-cards, .blog-grig-section-1-cards {
   max-width: 75%;
@@ -95,7 +123,7 @@
 
 .shop-section-1-cards {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
   display: flex;
   flex-wrap: wrap; }
   .shop-section-1-cards .card-img-3 {

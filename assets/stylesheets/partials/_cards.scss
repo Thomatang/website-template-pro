@@ -1,6 +1,5 @@
 // ADD HOVER EFFECT ON CARDS
 
-
 // INDIVIDUAL CARDS: IMAGE CARDS
 
 .card-img-1{
@@ -82,12 +81,14 @@
 	font-family: $subtitle;
 	cursor: pointer;
 	text-align: center;
+	position: relative; // remove
 	img{
 		max-width: 100%; // necessary?
 		max-height: 100%; // necessary?
 		border: 1px solid $light-text;
 		border-radius: 3px;
 		overflow: hidden;
+		display: block; // remove
 	}
 	h4{
 		margin-top: 10px;
@@ -99,7 +100,41 @@
 		font-size: $tiny;
 		color: $grey;
 	}
+	strike{
+		font-size: 10px;
+		color: $light-text;
+	}
+	.overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		height: 262px;
+		width: 100%;
+		transition: all .5s ease;
+		background-color: rgba(0, 0, 0, 0);
+		border-radius: 3px;
+		overflow: hidden;
+		color: $white;
+		// display: none;
+		button{ // ADD BTN-BLUE CLASS
+			margin-top: 120px;
+			cursor: pointer;
+			background-color: $blue-1;
+			color: $white;
+			display: none;
+		}
+	}
+	&:hover .overlay {
+		background-color: rgba(0, 0, 0, 0.7);
+	}
+	&:hover .overlay button {
+		display: inline-block;
+	}
 }
+
+// INDIVIDUAL CARDS: STATS CARDS
 
 
 
@@ -127,7 +162,7 @@
 
 .shop-section-1-cards{
 	max-width: 100%;
-	margin: 0 auto;
+	margin: 0 auto 40px auto;
 	display: flex;
 	flex-wrap: wrap;
 	.card-img-3{
