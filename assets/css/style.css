@@ -890,7 +890,76 @@
 .minimal-section-1 {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  background-color: #f5f5f5; }
+  .minimal-section-1 .minimal-section-1-top {
+    margin-bottom: 0px; }
+  .minimal-section-1 hr {
+    width: 1000px;
+    height: 1px;
+    background-color: #d6d6d6;
+    margin: 60px auto; }
+  .minimal-section-1 .minimal-section-1-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px; }
+    .minimal-section-1 .minimal-section-1-bottom img {
+      height: auto;
+      width: 400px; }
+    .minimal-section-1 .minimal-section-1-bottom .minimal-section-1-bottom-right {
+      margin: 0 auto;
+      padding: 0px 50px;
+      width: 475px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      align-self: flex-start; }
+      .minimal-section-1 .minimal-section-1-bottom .minimal-section-1-bottom-right h1 {
+        font-family: "Poppins", sans-serif;
+        font-size: 35px;
+        font-weight: 500;
+        align-self: flex-start;
+        margin: 0; }
+      .minimal-section-1 .minimal-section-1-bottom .minimal-section-1-bottom-right p {
+        font-family: "Open Sans", sans-serif; }
+      .minimal-section-1 .minimal-section-1-bottom .minimal-section-1-bottom-right p:nth-child(2) {
+        color: #465cff;
+        font-size: 20px;
+        margin: 0;
+        letter-spacing: 0.5px;
+        font-family: "Oranienbaum", serif;
+        font-weight: 300; }
+      .minimal-section-1 .minimal-section-1-bottom .minimal-section-1-bottom-right p:nth-child(3) {
+        margin: 30px 0;
+        color: #888888; }
+
+.minimal-section-2 {
+  display: flex;
+  color: #FFFFFF; }
+  .minimal-section-2 h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #d6d6d6;
+    font-family: "Muli", sans-serif;
+    margin: 0; }
+  .minimal-section-2 h3 {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "Muli", sans-serif;
+    margin-top: 0; }
+  .minimal-section-2 .minimal-section-2-left {
+    width: 50%;
+    background-color: #465cff;
+    padding: 150px 100px 100px 100px; }
+    .minimal-section-2 .minimal-section-2-left p {
+      margin: 40px 0 80px 0; }
+  .minimal-section-2 .minimal-section-2-right {
+    width: 50%;
+    background-color: #000000;
+    padding: 150px 100px 100px 100px; }
 
 .top-contact-dark {
   display: flex;
