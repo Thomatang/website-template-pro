@@ -5,7 +5,6 @@
 	flex-direction: column;
 	font-family: $subtitle;
 	align-items: center;
-	cursor: pointer;
 	background-color: $white;
 	padding: 5px 30px;
 	box-sizing: border-box;
@@ -69,7 +68,6 @@
 .block-3{
 	display: flex;
 	font-family: $subtitle;
-	cursor: pointer;
 	background-color: $white;
 	margin-bottom: 20px;
 	h3{
@@ -97,7 +95,6 @@
 	flex-direction: column;
 	font-family: $subtitle;
 	align-items: center;
-	cursor: pointer;
 	background-color: $white;
 	padding: 5px 30px;
 	box-sizing: border-box;
@@ -125,19 +122,6 @@
 		border-radius: 100px;
 		box-shadow: 0 0 70px 0px $light-text;
 	}
-	// svg{
-	// 	margin-top: 10px;
-	// 	background-color: $blue-1;
-	// 	padding: 50px;
-	// 	border-radius: 100px;
-	// }
-	// img{
-	// 	height: 50px;
-	// 	width: 50px;
-	// 	filter: invert(100%);
-	// 	background-color: blue;
-	// 	padding: 30px;
-	// }
 }
 
 // GROUP

@@ -5,7 +5,6 @@
   flex-direction: column;
   font-family: "Muli", sans-serif;
   align-items: center;
-  cursor: pointer;
   background-color: #FFFFFF;
   padding: 5px 30px;
   box-sizing: border-box;
@@ -55,7 +54,6 @@
 .block-3 {
   display: flex;
   font-family: "Muli", sans-serif;
-  cursor: pointer;
   background-color: #FFFFFF;
   margin-bottom: 20px; }
   .block-3 h3 {
@@ -77,7 +75,6 @@
   flex-direction: column;
   font-family: "Muli", sans-serif;
   align-items: center;
-  cursor: pointer;
   background-color: #FFFFFF;
   padding: 5px 30px;
   box-sizing: border-box;
@@ -389,8 +386,7 @@
   flex-direction: column;
   font-family: "Muli", sans-serif;
   background-color: #FFFFFF;
-  text-align: center;
-  cursor: pointer; }
+  text-align: center; }
   .card-profile img {
     max-width: 100%;
     max-height: 100%; }
@@ -399,7 +395,10 @@
     margin-bottom: 25px;
     text-align: center; }
     .card-profile div i {
-      color: #888888; }
+      color: #888888;
+      cursor: pointer; }
+      .card-profile div i:hover {
+        color: #465cff; }
   .card-profile h4 {
     margin-bottom: 8px;
     font-weight: 800; }
@@ -413,7 +412,6 @@
   display: flex;
   flex-direction: column;
   font-family: "Muli", sans-serif;
-  cursor: pointer;
   background-color: #FFFFFF;
   padding: 30px 30px 30px 25px;
   box-sizing: border-box;
