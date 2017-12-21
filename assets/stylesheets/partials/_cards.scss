@@ -289,7 +289,6 @@
 	display: flex;
 	flex-direction: column;
 	font-family: $subtitle;
-	align-items: flex-start;
 	cursor: pointer;
 	background-color: $white;
 	padding: 30px 30px 30px 25px;
@@ -297,10 +296,8 @@
 	border: 1px solid $light-text;
 	border-radius: 4px;
 	h4{
-		text-align: center;
 		font-size: $normal;
 		font-weight: $extra-bold;
-		margin-top: 20px;
 		margin-bottom: 0;
 	}
 	p{
@@ -311,13 +308,34 @@
 		color: $grey;
 	}
 	svg{
-		height: 40px;
-		width: 40px;
 		margin-top: 10px;
 	}
 }
 
-// GROUP: INDEX
+.card-icon-left{
+	align-items: flex-start;
+	svg{
+		height: 40px;
+		width: 40px;
+	}
+	h4{
+		margin-top: 20px;
+	}
+}
+
+.card-icon-center{
+	align-items: center;
+	text-align: center;
+	svg{
+		height: 45px;
+		width: 45px;
+	}
+	h4{
+		margin-top: 45px;
+	}
+}
+
+// GROUP
 
 .index-section-5-cards{
 	max-width: (1280px - 320px) / 1280px * 100%;
@@ -429,4 +447,12 @@
 		max-width: 300px;
 		margin: 10px;
 	}	
+}
+
+.portfolio-1-section-2-cards{
+	@extend .index-section-5-cards;
+	.card-icon{
+		max-width: 300px;
+		margin: 10px;
+	}
 }

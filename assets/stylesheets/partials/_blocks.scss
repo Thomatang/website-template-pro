@@ -1,0 +1,101 @@
+// INDIVIDUAL BLOCKS: BLOCK 1
+
+.block-1{
+	display: flex;
+	flex-direction: column;
+	font-family: $subtitle;
+	align-items: center;
+	cursor: pointer;
+	background-color: $white;
+	padding: 5px 30px;
+	box-sizing: border-box;
+	text-align: center;
+	h3{
+		font-size: $normal;
+		font-weight: $extra-bold;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	p{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: $tiny;
+		line-height: 25px;
+		color: $grey;
+	}
+	svg{
+		margin-top: 10px;
+	}	
+}
+
+// INDIVIDUAL BLOCKS: BLOCK 2
+
+.block-2{
+	display: flex;
+	font-family: $subtitle;
+	cursor: pointer;
+	background-color: $white;
+	margin-bottom: 20px;
+	h3{
+		font-size: $normal;
+		font-weight: $extra-bold;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	p{
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: $tiny;
+		line-height: 25px;
+		color: $grey;
+	}
+	div:nth-of-type(2){
+		margin-left: 20px;
+	}
+}
+
+// INDIVIDUAL BLOCKS: BLOCK 3
+
+
+
+// GROUP
+
+.index-section-6-block-group{
+	max-width: (1280px - 320px) / 1280px * 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	.block-1{
+		max-width: 300px;
+		margin: 10px;
+	}	
+}
+
+.minimal-section-1-top{
+	@extend .index-section-6-block-group;
+}
+
+.d-agency-section-1-block-group{
+	@extend .index-section-6-block-group;
+}
+
+.index-section-1-blocks{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.block-2{
+		max-width: 360px;
+		// margin: 10px;
+	}
+}
+
+.d-agency-section-2-left-bottom{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.block-2{
+		max-width: 360px;
+		// margin: 10px;
+	}
+}
