@@ -1,0 +1,89 @@
+.index-section-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-section-2{
+  background-color: $background-grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+    h3{
+      font-size: $big;
+      font-family: $title;
+      margin-bottom: 0;
+      margin-top: 50px;
+    }
+    p{
+      text-align: center;
+      font-family:$paragraph;
+      color: $grey;
+    }
+    button{
+      margin-bottom: 10px;
+    }
+}
+.index-section-3{
+  background-color: $background-grey;
+  display: flex;
+  justify-content: center;
+}
+.index-section-4{ //leaflet section
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.index-section-5{
+
+}
+
+.index-section-8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+    img{
+      height: 450px;
+      width:auto;
+    }
+    .index-section-8-right{
+    width: 50%;
+    .section-title-left{
+      margin:0 auto;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      h3{
+        line-height: 40px;
+      }
+      hr{
+        align-self: flex-start;
+      }
+      p{
+        margin-top: 0;
+      }
+    }
+    }
+
+}
+.index-section-9{
+  display: flex;
+  align-items:center;
+}
+.index-section-10 {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+//=======================MINIMAL Page
+.minimal-section-1{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
