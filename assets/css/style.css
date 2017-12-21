@@ -125,6 +125,16 @@
   max-width: 300px;
   margin: 10px; }
 
+.section-stats {
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px; }
+  .section-stats .section-stats-block {
+    max-width: 300px;
+    margin: 10px; }
+
 .btn-blue {
   margin: 30px 0; }
   .btn-blue button {
@@ -520,6 +530,40 @@
 .portfolio-1-section-2-cards .card-icon {
   max-width: 300px;
   margin: 10px; }
+
+.progress-bars {
+  width: 383px;
+  display: flex;
+  flex-direction: column;
+  padding: 0; }
+
+.progress-bars-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Muli", sans-serif; }
+  .progress-bars-label p:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFFFFF; }
+  .progress-bars-label p:nth-of-type(2) {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #d6d6d6; }
+
+progress {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 13px; }
+
+progress::-webkit-progress-bar {
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 5px #f5f5f5 inset; }
+
+progress::-webkit-progress-value {
+  background-color: #465cff; }
 
 .pre-footer {
   background-color: #1a1d1f;

@@ -124,6 +124,10 @@
 	}
 }
 
+// INDIVIDUAL BLOCKS: STATS BLOCKS
+
+
+
 // GROUP
 
 .index-section-6-block-group{
@@ -170,4 +174,16 @@
 		max-width: 300px;
 		margin: 10px;
 	}
+}
+
+.section-stats{
+	max-width: (1280px - 320px) / 1280px * 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 100px;
+	.section-stats-block{
+		max-width: 300px;
+		margin: 10px;
+	}	
 }
