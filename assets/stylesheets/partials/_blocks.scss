@@ -126,7 +126,24 @@
 
 // INDIVIDUAL BLOCKS: STATS BLOCKS
 
-
+.section-stats-block{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	// background-color: red;
+	color: $white;
+	font-family: $subtitle;
+	h3{
+		font-size: 30px;
+		font-weight: $extra-bold;
+		margin-bottom: 0;
+	}
+	p{
+		font-size: $small;
+		margin-top: 3px;
+	}
+}
 
 // GROUP
 
@@ -177,13 +194,13 @@
 }
 
 .section-stats{
-	max-width: (1280px - 320px) / 1280px * 100%;
+	max-width: (1280px - 250px) / 1280px * 100%;
 	margin: 0 auto;
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: center;
 	margin-bottom: 100px;
 	.section-stats-block{
-		max-width: 300px;
+		width: 300px;
 		margin: 10px;
 	}	
 }
